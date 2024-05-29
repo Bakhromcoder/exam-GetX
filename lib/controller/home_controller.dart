@@ -8,6 +8,8 @@ import 'package:project_exam/services/http_service.dart';
 class HomeController extends GetxController{
 
   List<Article> bitcoin = [];
+  String urlWebView = '';
+
 
   infoBitcoin() async {
 
@@ -16,8 +18,6 @@ class HomeController extends GetxController{
 
     bitcoin = bitcoinList;
     update();
-
-
   }
 
 }
